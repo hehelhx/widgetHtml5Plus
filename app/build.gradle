@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "com.camtalk.xinwei.widget"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/android-support-v4.jar')
+    compile files('libs/json_simple-1.1.jar')
+    compile files('libs/nineoldandroids-2.4.0.jar')
+    compile files('libs/pdr.jar')
+    compile files('libs/ui.jar')
+    compile files('libs/universal-image-loader-1.9.0.jar')
+    compile files('libs/audio.jar')
+    compile files('libs/camera.jar')
+    compile files('libs/device.jar')
+    compile files('libs/gallery.jar')
+    compile files('libs/nativeui.jar')
+    compile files('libs/navigatorui.jar')
+    compile files('libs/nopermission.jar')
+    compile files('libs/xhr.jar')
+    compile files('libs/file.jar')
+    compile files('libs/invocation.jar')
+    compile files('libs/downloader.jar')
+}

@@ -1,0 +1,6 @@
+<hbuilder version="1.9.9.23345">
+    <apps>
+        <app appid="HelloH5" appver="1.5.3"/>
+        <app appid="helloMui" appver="1.0"/>
+    </apps>
+</hbuilder>
