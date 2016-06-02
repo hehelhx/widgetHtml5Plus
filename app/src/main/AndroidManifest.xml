@@ -26,7 +26,9 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity android:name=".SDK_WebApp"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent"
+            >
         </activity>
         <activity android:name=".MainActivity" >
             <intent-filter>

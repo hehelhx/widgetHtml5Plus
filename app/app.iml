@@ -86,8 +86,8 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 23 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="ui" level="project" />
     <orderEntry type="library" exported="" name="android-support-v4" level="project" />
+    <orderEntry type="library" exported="" name="ui" level="project" />
     <orderEntry type="library" exported="" name="audio" level="project" />
     <orderEntry type="library" exported="" name="gallery" level="project" />
     <orderEntry type="library" exported="" name="nineoldandroids-2.4.0" level="project" />
@@ -95,12 +95,12 @@
     <orderEntry type="library" exported="" name="invocation" level="project" />
     <orderEntry type="library" exported="" name="pdr" level="project" />
     <orderEntry type="library" exported="" name="nopermission" level="project" />
-    <orderEntry type="library" exported="" name="navigatorui" level="project" />
     <orderEntry type="library" exported="" name="file" level="project" />
-    <orderEntry type="library" exported="" name="downloader" level="project" />
+    <orderEntry type="library" exported="" name="navigatorui" level="project" />
     <orderEntry type="library" exported="" name="xhr" level="project" />
-    <orderEntry type="library" exported="" name="json_simple-1.1" level="project" />
     <orderEntry type="library" exported="" name="device" level="project" />
+    <orderEntry type="library" exported="" name="downloader" level="project" />
+    <orderEntry type="library" exported="" name="json_simple-1.1" level="project" />
     <orderEntry type="library" exported="" name="nativeui" level="project" />
     <orderEntry type="library" exported="" name="universal-image-loader-1.9.0" level="project" />
   </component>
